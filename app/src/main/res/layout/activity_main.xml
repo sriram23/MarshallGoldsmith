@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#250000ee"
-    tools:context="com.example.sriram.marshalgoldsmith.MainActivity">
+    tools:context="com.example.sriram.marshallgoldsmith.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
