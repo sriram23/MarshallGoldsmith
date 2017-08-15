@@ -30,7 +30,14 @@ public class MainActivity extends AppCompatActivity {
         sharedpreferences = getSharedPreferences("username", 0);
 
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-        if (!prefs.getBoolean("firstTime", false)) {
+        //EXIT
+        if( getIntent().getBooleanExtra("Exit me", false)){
+            finish();
+            //System.exit(0);
+            return;
+        }
+        //GET NAME
+        else if (!prefs.getBoolean("firstTime", false)) {
             namBtn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -49,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
             editor.putBoolean("firstTime", true);
             editor.commit();
         }
+        //MOVE TO NEXT ACTIVITY AUTOMATICALLY
         else{
             Intent myIntent = new Intent(MainActivity.this, WelcomeActivity.class);
             startActivity(myIntent);
