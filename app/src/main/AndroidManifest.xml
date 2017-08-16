@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".WelcomeActivity" />
-        <activity android:name=".AboutActivity"></activity>
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".Q1Activity"></activity>
     </application>
 
 </manifest>

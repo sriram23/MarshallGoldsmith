@@ -42,6 +42,13 @@ public class WelcomeActivity extends AppCompatActivity {
                 startActivity(myIntent);
             }
         });
+        Tk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(WelcomeActivity.this, Q1Activity.class);
+                startActivity(myIntent);
+            }
+        });
     }
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
@@ -62,20 +69,13 @@ public class WelcomeActivity extends AppCompatActivity {
 
                     // do something when the button is clicked
                     public void onClick(DialogInterface arg0, int arg1) {
-
+                        //MOVE TO EXIT
+                        Toast.makeText(WelcomeActivity.this, "Thanks for Coming!!", Toast.LENGTH_LONG).show();
                         Intent intent = new Intent(WelcomeActivity.this, MainActivity.class);
                         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                         intent.putExtra("Exit me", true);
                         startActivity(intent);
                         finish();
-
-
-//  finish();
-                        //System.exit(0);
-                        //close();
-
-
-
                     }
                 })
                 .setNegativeButton("No", new DialogInterface.OnClickListener() {
