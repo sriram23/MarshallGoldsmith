@@ -31,7 +31,7 @@ public class WelcomeActivity extends AppCompatActivity {
         String value = settings.getString("Name", "");
         Log.d("TAG", value);
         tx = (TextView) findViewById(R.id.Name_New);
-        tx.setText("Hello..!"+value);
+        tx.setText("Hello "+value);
         Abt = (Button) findViewById(R.id.abt);
         Tk = (Button) findViewById(R.id.TT);
 

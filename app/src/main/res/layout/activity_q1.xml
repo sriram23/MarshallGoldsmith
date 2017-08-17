@@ -11,7 +11,7 @@
         android:padding="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="How was your day?"
+        android:text="How was your day?(Rate in %)"
         android:textSize="30sp"/>
     <SeekBar
         android:id="@+id/Q1SB"
@@ -20,4 +20,16 @@
         android:layout_gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Q1R"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Q1SB"/>
+    <Button
+        android:id="@+id/Q1BTN"
+        android:layout_below="@id/Q1R"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEXT"/>
 </RelativeLayout>
