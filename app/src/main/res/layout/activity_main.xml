@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#250000ee"
+    android:background="@mipmap/marshall"
     tools:context="com.example.sriram.marshallgoldsmith.MainActivity">
 
     <TextView
@@ -24,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="GO!"
-        android:background="#6666cc"
+        android:background="#696666cc"
         android:id="@+id/btn_yourName"
         android:layout_below="@id/yourNameET"/>
     <TextView

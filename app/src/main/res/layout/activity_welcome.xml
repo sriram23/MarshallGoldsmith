@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/activity_welcome"
+    android:background="@mipmap/marshall"
     tools:context="com.example.sriram.marshallgoldsmith.WelcomeActivity">
 
     <TextView
@@ -13,7 +14,7 @@
         android:id="@+id/Name_New"
         android:textAllCaps="true"
         android:textSize="25dp"
-        android:textColor="#2222ff"
+        android:textColor="#575757"
         android:text="test"
         android:layout_marginTop="175dp"
         android:layout_alignParentTop="true"

@@ -1,35 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/marshall"
     tools:context="com.example.sriram.marshallgoldsmith.Q1Activity">
 
-    <TextView
-        android:id="@+id/Q1TV"
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
         android:padding="10dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="How was your day?(Rate in %)"
-        android:textSize="30sp"/>
-    <SeekBar
-        android:id="@+id/Q1SB"
-        android:layout_below="@id/Q1TV"
-        android:padding="10dp"
-        android:layout_gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/Q1R"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/Q1SB"/>
-    <Button
-        android:id="@+id/Q1BTN"
-        android:layout_below="@id/Q1R"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="NEXT"/>
-</RelativeLayout>
+        android:layout_weight="1" >
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/Q1TV"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Did you increase your happiness?"
+                android:textSize="30sp"/>
+            <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q1SW"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q1R"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:id="@+id/Q1BTN"
+                android:layout_below="@id/Q1R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEXT"/>
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TableLayout>
+
+        <TableLayout
+            android:padding="5dp"
+            android:id="@+id/tableLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/Q2TV"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Did you find meaning?"
+                android:textSize="30sp"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q2SW"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q2R"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:id="@+id/Q2BTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEXT"/>
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>

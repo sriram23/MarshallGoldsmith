@@ -4,36 +4,33 @@ import android.support.annotation.IntegerRes;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.CompoundButton;
 import android.widget.SeekBar;
+import android.widget.Switch;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Q1Activity extends AppCompatActivity {
-    SeekBar sb;
+    Switch S;
     TextView tv;
-    int val;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_q1);
-        sb = (SeekBar)findViewById(R.id.Q1SB);
         tv = (TextView) findViewById(R.id.Q1R);
-        sb.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener(){
+        S = (Switch) findViewById(R.id.Q1SW);
+        S.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                // do something, the isChecked will be
+                // true if the switch is in the On position
 
-            @Override
-            public void onProgressChanged(SeekBar seekBar, int progress,
-                                          boolean fromUser) {
-                // TODO Auto-generated method stub
-                tv.setText(String.valueOf(progress));
-            }
-
-            @Override
-            public void onStartTrackingTouch(SeekBar seekBar) {
-                // TODO Auto-generated method stub
-            }
-
-            @Override
-            public void onStopTrackingTouch(SeekBar seekBar) {
-                // TODO Auto-generated method stub
+                if(isChecked){
+                    tv.setText("YES");
+                }
+                else{
+                    tv.setText("NO");
+                }
             }
         });
     }
