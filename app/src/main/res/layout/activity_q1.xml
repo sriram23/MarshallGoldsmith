@@ -346,6 +346,7 @@
                 android:textSize="30sp"/>
             <EditText
                 android:id="@+id/Q12ET"
+                android:inputType="number"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:hint="Mins"/>
@@ -353,6 +354,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/Q12R"
+                android:textColor="#ffffff"
                 android:layout_centerHorizontal="true" />
             <Button
                 android:id="@+id/Q12BTN"
@@ -460,10 +462,12 @@ Did you waste time to prove that you was right when it wasn't worth it?
                 android:layout_height="wrap_content"
                 android:text="How many hours you spent for sleeping?"
                 android:textSize="30sp"/>
-            <Switch
-                android:layout_width="wrap_content"
+            <EditText
+                android:id="@+id/Q16ET"
+                android:inputType="number"
                 android:layout_height="wrap_content"
-                android:id="@+id/Q16SW"/>
+                android:layout_width="wrap_content"
+                android:hint="Mins"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
