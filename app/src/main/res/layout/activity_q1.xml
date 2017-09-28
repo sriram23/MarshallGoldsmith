@@ -78,5 +78,459 @@
                 android:text="NEXT"/>
         </TableLayout>
 
+        <TableLayout
+            android:padding="5dp"
+            android:id="@+id/tableLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/Q3TV"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Did you engaged on your work?"
+                android:textSize="30sp"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q3SW"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q3R"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:id="@+id/Q3BTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEXT"/>
+        </TableLayout>
+
+        <TableLayout
+            android:padding="5dp"
+            android:id="@+id/tableLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/Q4TV"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Did you build relationships?"
+                android:textSize="30sp"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q4SW"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q4R"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:id="@+id/Q4BTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEXT"/>
+        </TableLayout>
+
+        <TableLayout
+            android:padding="5dp"
+            android:id="@+id/tableLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/Q5TV"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Did you set any goal for today?"
+                android:textSize="30sp"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q5SW"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q5R"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:id="@+id/Q5BTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEXT"/>
+        </TableLayout>
+
+        <TableLayout
+            android:padding="5dp"
+            android:id="@+id/tableLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/Q6TV"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Did you take any progress on your goals?"
+                android:textSize="30sp"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q6SW"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q6R"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:id="@+id/Q6BTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEXT"/>
+        </TableLayout>
+
+        <TableLayout
+            android:padding="5dp"
+            android:id="@+id/tableLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/Q7TV"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How happy you are?"
+                android:textSize="30sp"/>
+            <SeekBar
+                android:id="@+id/Q7SB"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q7R"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:id="@+id/Q7BTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEXT"/>
+        </TableLayout>
+
+        <TableLayout
+            android:padding="5dp"
+            android:id="@+id/tableLayout8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/Q8TV"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Does your activities were meaningful?"
+                android:textSize="30sp"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q8SW"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q8R"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:id="@+id/Q8BTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEXT"/>
+        </TableLayout>
+
+        <TableLayout
+            android:padding="5dp"
+            android:id="@+id/tableLayout9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/Q9TV"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How well do you plan and execute your day?"
+                android:textSize="30sp"/>
+            <Spinner
+                android:id="@+id/Q9SP"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:drawSelectorOnTop="true"
+                android:entries="@array/spinnerValues" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q9R"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:id="@+id/Q9BTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEXT"/>
+        </TableLayout>
+
+        <TableLayout
+            android:padding="5dp"
+            android:id="@+id/tableLayout10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/Q10TV"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Did you spent minutes on meditation or positive thinking?"
+                android:textSize="30sp"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q10SW"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q10R"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:id="@+id/Q10BTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEXT"/>
+        </TableLayout>
+
+        <TableLayout
+            android:padding="5dp"
+            android:id="@+id/tableLayout11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/Q11TV"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Did you spent on minutes on things that you can’t control or don’t matter?"
+                android:textSize="30sp"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q11SW"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q11R"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:id="@+id/Q11BTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEXT"/>
+        </TableLayout>
+
+        <TableLayout
+            android:padding="5dp"
+            android:id="@+id/tableLayout12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/Q12TV"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" How long you spent on watching TV?"
+                android:textSize="30sp"/>
+            <EditText
+                android:id="@+id/Q12ET"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:hint="Mins"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q12R"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:id="@+id/Q12BTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEXT"/>
+        </TableLayout>
+
+        <TableLayout
+            android:padding="5dp"
+            android:id="@+id/tableLayout13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/Q13TV"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Did you spent minutes on non-business by using internet?
+Which can makes of angry or destructive comments?
+Did you waste time to prove that you was right when it wasn't worth it?
+"
+                android:textSize="30sp"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q13SW"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q13R"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:id="@+id/Q13BTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEXT"/>
+        </TableLayout>
+
+        <TableLayout
+            android:padding="5dp"
+            android:id="@+id/tableLayout14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/Q14TV"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Have you spent minutes on writing?"
+                android:textSize="30sp"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q14SW"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q14R"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:id="@+id/Q14BTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEXT"/>
+        </TableLayout>
+
+        <TableLayout
+            android:padding="5dp"
+            android:id="@+id/tableLayout15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/Q15TV"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Is the clients not upto date?"
+                android:textSize="30sp"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q15SW"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q15R"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:id="@+id/Q15BTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEXT"/>
+        </TableLayout>
+
+        <TableLayout
+            android:padding="5dp"
+            android:id="@+id/tableLayout16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/Q16TV"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How many hours you spent for sleeping?"
+                android:textSize="30sp"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q16SW"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q16R"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:id="@+id/Q16BTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEXT"/>
+        </TableLayout>
+
+        <TableLayout
+            android:padding="5dp"
+            android:id="@+id/tableLayout17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/Q17TV"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Did you spent minutes on exercising?       a.   Did you do sit ups?                                  b.   Did you do pushups?"
+                android:textSize="30sp"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q17SW"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q17R"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:id="@+id/Q17BTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEXT"/>
+        </TableLayout>
+
+        <TableLayout
+            android:padding="5dp"
+            android:id="@+id/tableLayout18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/Q18TV"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Did you do strength exercise?"
+                android:textSize="30sp"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q18SW"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q18R"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:id="@+id/Q18BTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEXT"/>
+        </TableLayout>
+
     </LinearLayout>
 </ScrollView>
